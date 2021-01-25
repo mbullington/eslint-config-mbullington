@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-mbullington",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "contributors": ["Michael Bullington <michael@bullington.xyz"],
+  "dependencies": {
+    "@babel/eslint-parser": "^7.11.5",
+    "@typescript-eslint/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^4.1.0",
+    "babel-plugin-dev-expression": "^0.2.2",
+    "confusing-browser-globals": "^1.0.9",
+    "deepmerge": "^4.2.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-graphql": "^3.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.13.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.5",
+    "eslint-plugin-react-native": "^3.8.1",
+    "eslint-plugin-unicorn": "^20.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.1.1"
+  },
+  "peerDependencies": {
+    "@babel/core": "~7.x.x",
+    "eslint": "> 6.0.0",
+    "typescript": "~3.x.x"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6"
+  }
+}
